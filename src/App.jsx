@@ -1,14 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Card from './components/Card'
 import './App.css'
+import Lista from './components/Lista'
 
 function App() {
   
 
   return (
+
     <>
-      <h1>holi</h1>
+      <Card>
+        <Lista/>
+      </Card>
+      
+      
     </>
   )
 }
